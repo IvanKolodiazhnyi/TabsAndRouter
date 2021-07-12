@@ -40,7 +40,11 @@ const App = () => (
 
       <Route path="/todos" exact component={Todos}/>
 
-      <Route path="/users" exact component={Users}/>
+      <Route
+        path="/users/:userId?"
+        exact
+        component={Users}
+      />
 
     </Switch>
   </div>
