@@ -1,0 +1,45 @@
+.users {
+
+  &_container {
+    position: relative;
+    border: 1px solid black;
+    margin-top: 15px;
+  }
+
+  &_button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 5px;
+    right: 5px;
+  }
+}
+
+.search {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
+  height: 60px;
+
+  background-color: red;
+
+  &_user {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_city {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_label {
+    font-size: 16px;
+  }
+
+  &_input {
+    font-family: inherit;
+  }
+}
